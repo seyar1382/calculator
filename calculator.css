@@ -1,0 +1,72 @@
+body {
+    background-image: url(R.jfif);
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.all {
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.all:hover {
+    cursor: pointer;
+}
+
+.div1, .div2, .div3, .div4, .div5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.par1, .par2, .par3, .par4 {
+    margin-bottom: 0;
+}
+
+.operations {
+    background-color: rgb(246,153,6);
+    font-size: 16px;
+    color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.operations:hover {
+    background-color: whitesmoke;
+    color: rgb(246,153,6);
+}
+
+.operations:active {
+    opacity: 0.6;
+}
+
+.para {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.numbers {
+    background-color: rgb(52, 51, 52);
+    color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.numbers:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.numbers:active {
+    opacity: 0.6;
+}
